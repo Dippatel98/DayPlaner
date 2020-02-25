@@ -1,0 +1,14 @@
+<!-- Fig. 6.14: planner.dtd -->
+    <!-- DTD for day planner    -->  
+
+    <!ELEMENT planner ( year* )>
+
+    <!ELEMENT year ( date+ )>
+    <!ATTLIST year value CDATA #REQUIRED>
+
+    <!ELEMENT date ( note+ )>
+    <!ATTLIST date month CDATA #REQUIRED>
+    <!ATTLIST date day CDATA #REQUIRED>
+
+    <!ELEMENT note ( #PCDATA )>
+    <!ATTLIST note time CDATA #IMPLIED>

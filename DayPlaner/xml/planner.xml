@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE planner SYSTEM "planner.dtd">
+<planner>
+	<year value="2017">
+		<date day="5" month="5">
+			<note time="0000">jiga</note>
+		</date>
+		<date day="4" month="4">
+			<note time="0000">hello</note>
+		</date>
+	</year>
+	<year value="2015">
+		<date day="1" month="1">
+			<note time="0000">jash</note>
+		</date>
+	</year>
+</planner>
